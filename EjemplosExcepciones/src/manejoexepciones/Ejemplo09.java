@@ -38,3 +38,5 @@ public class Ejemplo09 {
         }
     }
 }
+// usamos throw nex exception para lanzar una execpcion manual cediendo a un catch para
+//manejarlo.

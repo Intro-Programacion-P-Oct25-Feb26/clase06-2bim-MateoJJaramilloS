@@ -30,7 +30,7 @@ public class Ejemplo08 {
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }
-        
+        // El exception captura todo porque ese Exception es global y abarca todos los errores.
         
                
     }

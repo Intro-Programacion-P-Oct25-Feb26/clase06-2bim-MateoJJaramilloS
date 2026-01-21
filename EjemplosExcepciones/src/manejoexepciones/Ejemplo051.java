@@ -28,6 +28,10 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+// Primero declaramos la variable boolean a bandera con falos verdadero para que pueda entrar
+//directmente al ciclo y pase una vez. Dentro pedimos valores, si lo que ingresa el usuario
+//no es entero o pone 0 en el segundo valor sale error pero como esta con try y catch para que 
+//ingrese de nuevo.
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",
